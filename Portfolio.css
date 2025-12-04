@@ -1,0 +1,378 @@
+*{
+margin:0;
+padding:0;
+font-family: "Quicksand", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+}
+header{
+height:4rem;
+width:100%;
+background-color:rgb(0, 0, 0);
+display:flex;
+justify-content: space-between;
+flex-direction: row;
+position: fixed;
+z-index:1;
+}
+.image1{
+height:4rem;
+margin-left:8rem;
+width:8.5rem;
+}
+.nav-elements{
+display:flex;
+}
+.Home{
+color:rgba(12, 228, 228, 0.781);
+padding:20px;
+font-size:1.2rem;
+}
+.About{
+color:rgba(12, 228, 228, 0.781);
+padding:20px;
+font-size:1.2rem;
+}
+.Projects{
+color:rgba(12, 228, 228, 0.781);
+padding:20px;    
+font-size:1.2rem;
+}
+.Contact{
+color:rgba(12, 228, 228, 0.781);
+padding:20px; 
+font-size:1.2rem;
+}
+.aside1{
+background-color:black;
+height:89vh;
+}
+.elements{
+font-size:1rem;
+padding-left:10rem;
+padding-top:7rem;
+}
+.Author{
+    color:white;
+    line-height:4rem;
+    font-size:3rem;
+}
+.role{
+    color:rgba(12, 228, 228, 0.781);
+    line-height:3rem;
+    font-size:2rem;
+}
+pre{
+    color:white;
+    line-height:2rem;
+    opacity:0.8;
+
+}
+.Multiple-buttons{
+    display:flex;
+    flex-direction: row;
+    
+}
+.bt1{
+    height:3rem;
+    width:7.5rem;
+    font-size:1rem;
+    background-color:rgba(3, 196, 255, 0.945);
+    border-radius:20px;
+    color:rgb(68, 59, 59);
+    border-color: rgb(3, 196, 255);
+}
+.bt1:hover{
+    background-color:white;
+}
+.bt2{
+    height:3rem;
+    width:7.5rem;
+    font-size:1rem;
+    background-color:#112733;
+    color: rgb(3, 196, 255);
+    border-color: rgb(3, 196, 255);
+    border-radius: 20px;
+    margin-left: 3.6rem;
+}
+.bt2:hover{
+    background-color:white;
+}
+.aside2{
+    position:absolute;
+    left:43rem;
+    top:6rem;
+}
+.profile-pic{
+    border-radius:48%;
+}
+.Aboutbar{
+    text-align: center;
+    font-weight: 100;
+    color:white;
+    line-height:3.2rem;
+    background-color:black;
+
+}
+.about{
+    text-decoration: underline;
+    font-weight: 300px;
+    color:rgba(12, 228, 228, 0.781);
+    font-size: 70px;
+    line-height:4rem;
+    text-align: center;
+}
+.boxes{
+    display:flex;
+    justify-content:space-evenly;
+    gap:20px;
+    background-color:black;
+}
+.box1{
+    height:12rem;
+    width:20rem;
+    background-color:rgba(12, 228, 228, 0.781);
+    box-shadow:3px 4px 10px white;
+    border-radius:20px
+}
+.box2{
+   height:12rem;
+   width:20rem;
+   background-color:rgba(12, 228, 228, 0.781);
+   box-shadow:3px 4px 10px white;
+   border-radius:20px
+    
+}
+.box3{
+   height:12rem;
+   width:20rem;
+   background-color:rgba(12, 228, 228, 0.781);
+   box-shadow:3px 4px 10px white;
+   border-radius:20px
+}
+.info1{
+    padding:80px;
+    font-size:20px;
+    border-top:20px;
+    
+}
+.info3{
+    padding:80px;
+    font-size:20px;
+    border-top:20px;
+}
+.info2{
+    padding:80px;
+    font-size:20px;
+    border-top:20px;
+}
+h3{
+    text-align:center;
+    color:white;
+    opacity:0.9;
+}
+h4{
+    text-align: center;
+    opacity:0.7;
+}
+h3{
+    text-align:center;
+    color:white;
+    opacity:0.9;
+}
+h4{
+    text-align: center;
+    opacity:0.7;
+}
+
+h3{
+    text-align:center;
+    color:white;
+    opacity:0.9;
+}
+h4{
+    text-align: center;
+    opacity:0.7;
+}
+
+h3{
+    text-align:center;
+    color:white;
+    opacity:0.9;
+}
+h4{
+    text-align: center;
+    opacity:0.7;
+}
+.box2:hover{
+    box-shadow:6px 9px 30px white;
+    
+}
+.box1:hover{
+    box-shadow:6px 9px 30px white;
+}
+.box3:hover{
+    box-shadow:6px 9px 30px white;
+}
+.projects{
+    background-color:black;
+}
+.title{
+    text-align: center;
+    position:relative;
+    font-size:3rem;
+    text-decoration:underline rgba(12, 228, 228, 0.781) ;
+    color:rgba(12, 228, 228, 0.781) ;
+    padding-top:2rem;
+}
+
+.webdev{
+    position:relative;
+    justify-content: space-evenly;
+    display:flex;
+    top:2rem;
+    flex-direction:row;
+    height:32rem;
+    background:linear-gradient(to top,rgb(39, 90, 39),rgb(70, 31, 37),black);
+}
+.portfolio{
+    height:30rem;
+    width:25rem;
+    background-color: rgba(37, 59, 59, 0.781);
+    position: relative;
+    top:1.5rem;
+}
+.card{
+    height:12rem;
+    width:25rem;
+    background-image:url("./Resources/image.JPG");
+    background-size:cover;
+    position:relative;
+}
+.card2{
+    height:12rem;
+    width:25rem;
+    background-image:url("./Resources/gd.jpg");
+    background-size:cover;
+    position:relative;
+
+}
+.nameplate{
+    height:18rem;
+    width:25rem;
+    background-color:whitesmoke;
+    position:relative;
+    border-radius:10px;
+    text-align:center;
+}
+h1{
+    color:rgb(26, 189, 189);
+    font-weight: 200px;
+    font-size:3rem;
+}
+.tech-stack{
+    color:black;
+}
+.mainheading{
+    text-align: center;
+    color: rgba(12, 228, 228, 0.781);
+    text-decoration:underline;
+    padding-top: 3rem;
+    font-size: 3px;
+}
+contactpage {
+    width: 100%;
+    display: block;
+    padding-bottom: 4rem;
+}
+
+
+.mainheading h1{
+    text-align: center;
+    color: rgba(12, 228, 228, 0.781);
+    text-decoration: underline;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    padding: 2rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.entire{
+    background:linear-gradient(to bottom,rgb(39, 90, 39),rgb(70, 31, 37),black);
+}
+.pt1{
+    width: 30rem;
+    color: white;
+}
+.pt1 .name h1{
+    color: rgba(12, 228, 228, 0.781);
+    font-size: 2.2rem;
+}
+.pt1 .name h3{
+    line-height: 2rem;
+    opacity: 0.9;
+}
+.mail, .nor, .location{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.mailad{
+    color: white;
+    font-size: 1.2rem;
+}
+.icon i{
+    font-size: 1.8rem;
+    color: rgba(12, 228, 228, 0.781);
+}
+.pt2{
+    width: 32rem;
+}
+.pt2 h3{
+    color: rgba(12, 228, 228, 0.781);
+    font-size: 1.2rem;
+}
+
+.empty1 input,
+.empty2 input,
+.empty3 input,
+.empty4 input{
+    height: 2.8rem;
+    width: 100%;
+    padding-left: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: left;
+    background-color: #112733;
+    font-size: 1rem;
+    box-shadow: 0px 0px 6px rgba(12, 228, 228, 0.4);
+    transition: 0.3s ease;
+}
+
+.empty4 input{
+    height: 5rem;
+}
+
+
+.empty1 input:focus,
+.empty2 input:focus,
+.empty3 input:focus,
+.empty4 input:focus{
+    background-color: #0c6d8a;
+    box-shadow: 0px 0px 10px rgba(12, 228, 228, 0.8);
+} 
+.aside1{
+
+background-image: linear-gradient(to right, #434343 00%, black 100%);
+}
